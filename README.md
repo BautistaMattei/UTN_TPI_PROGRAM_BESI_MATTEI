@@ -3,7 +3,7 @@
 **Trabajo Práctico Integrador (TPI) — Programación 1**  
 Tecnicatura Universitaria en Programación — UTN  
 
-**Integrantes:** Bautista Mattei y Santiago  
+**Integrantes:** Bautista Mattei y Santiago Andres Besi
 
 ---
 
@@ -20,32 +20,7 @@ UTN_TPI_PROGRAM_BESI_MATTEI/
 ├── Main.py        # Código fuente principal
 ├── paises.csv     # Dataset base con 42 países
 └── README.md      # Este archivo
-```
 
----
-
-## Requisitos
-
-- Python 3.x
-- No requiere librerías externas (solo módulos estándar: `csv`, `os`)
-
----
-
-## Instrucciones de uso
-
-1. Clonar el repositorio:
-```bash
-git clone https://github.com/BautistaMattei/UTN_TPI_PROGRAM_BESI_MATTEI.git
-```
-
-2. Asegurarse de que `paises.csv` esté en la misma carpeta que `Main.py`.
-
-3. Ejecutar:
-```bash
-python Main.py
-```
-
----
 
 ## Funcionalidades
 
@@ -60,32 +35,31 @@ python Main.py
 | 7 | Estadísticas: mayor/menor población, promedios, países por continente |
 | 0 | Salir |
 
----
+
 
 ## Ejemplos de entrada/salida
 
 ### Mostrar países (opción 1)
-```
+
 ==========================================================================================
 NOMBRE              POBLACION      SUPERFICIE     CONTINENTE
 ==========================================================================================
 Argentina           45376768       2780400        America
 Brasil              213993437      8515767        America
-...
-```
+
 
 ### Buscar país (opción 4)
-```
+
 === BUSCAR PAIS ===
 Ingrese el nombre del país que desea buscar (total o parcial): arg
 
 NOMBRE              POBLACION      SUPERFICIE     CONTINENTE
 ==========================================================================================
 Argentina           45376768       2780400        America
-```
+
 
 ### Filtrar por continente (opción 5 → 1)
-```
+
 === FILTRAR POR CONTINENTE ===
 Continente: Europa
 
@@ -94,11 +68,10 @@ NOMBRE              POBLACION      SUPERFICIE     CONTINENTE
 Alemania            83149300       357022         Europa
 Francia             67390000       551695         Europa
 España              47450795       505990         Europa
-...
-```
+
 
 ### Ordenar por población descendente (opción 6 → 2)
-```
+
 === ORDENAR POR POBLACIÓN ===
 A Ascendente / D Descendente: D
 
@@ -106,11 +79,10 @@ NOMBRE              POBLACION      SUPERFICIE     CONTINENTE
 ==========================================================================================
 India               1428600000     3287263        Asia
 China               1412600000     9596961        Asia
-...
-```
+
 
 ### Estadísticas (opción 7)
-```
+
 === ESTADÍSTICAS ===
 Mayor población : India (1,428,600,000)
 Menor población : Uruguay (3,574,964)
@@ -123,13 +95,12 @@ Cantidad de países por continente:
   Asia: 10
   Europa: 8
   Oceania: 3
-```
 
----
+
 
 ## Formato del CSV
 
-```
+
 nombre,poblacion,superficie,continente
 Argentina,45376768,2780400,America
 Japon,125800000,377975,Asia
@@ -140,7 +111,6 @@ Japon,125800000,377975,Asia
 - `poblacion` y `superficie` deben ser enteros positivos
 - No se permiten nombres duplicados
 
----
 
 ## Video demostrativo
 
