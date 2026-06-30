@@ -114,11 +114,11 @@ Japon,125800000,377975,Asia
 
 ## Video demostrativo
 
-> 🔗 **[Insertar enlace al video aquí]**
+> 🔗 https://drive.google.com/file/d/1T0tWh_gfss8YakcSnKeJ4brZZW3Nrlvh/view?usp=drive_link
 
 ## Documentación PDF
 
-> 🔗 **[Insertar enlace al PDF aquí]**
+> 🔗 https://drive.google.com/file/d/1myVAP-OYxURRRd_XXR95ex6WcoI7oTo-/view?usp=drive_link
 
 
 
